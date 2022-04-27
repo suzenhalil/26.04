@@ -38,6 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.listBox3 = new System.Windows.Forms.ListBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -108,6 +109,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(88, 23);
             this.textBox1.TabIndex = 6;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -136,14 +138,26 @@
             this.listBox3.ItemHeight = 15;
             this.listBox3.Location = new System.Drawing.Point(171, 103);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(153, 109);
+            this.listBox3.Size = new System.Drawing.Size(153, 79);
             this.listBox3.TabIndex = 9;
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button6.Location = new System.Drawing.Point(171, 188);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(153, 23);
+            this.button6.TabIndex = 10;
+            this.button6.Text = "Ebob - Ekok";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(491, 280);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.listBox3);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label1);
@@ -173,5 +187,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.Button button6;
     }
 }

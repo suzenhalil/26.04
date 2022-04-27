@@ -72,6 +72,8 @@ namespace WinOrnek1
         {
             listBox1.Items.Clear();
             listBox2.Items.Clear();
+            listBox3.Items.Clear();
+            textBox1.Text = "";
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -130,6 +132,38 @@ namespace WinOrnek1
 
             // 1- random deger at
             // 2- Freak
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Random kelp = new Random();
+            int[] sira = new int[20];
+            for (int i = 0; i < sira.Length; i++)
+            {
+                sira[i] = kelp.Next(100);
+                listBox1.Items.Add(sira[i]);
+            }
+            int enkucuk = sira[0], enbuyuk = sira[0];
+            for (int i = 1; i < sira.Length; i++)
+            {
+                if (enkucuk > sira[i])
+                {
+                    enkucuk = sira[i];
+                }
+                if (enbuyuk < sira[i])
+                {
+                    enbuyuk = sira[i];
+                }
+            }
+            listBox3.Items.Add ("En Küçük Sayı: " + enkucuk);
+            listBox3.Items.Add("En Büyük Sayı: " + enbuyuk);
+
+            
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
