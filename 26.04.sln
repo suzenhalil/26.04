@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodGiris", "MetodGiris\Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoidMetodlar", "VoidMetodlar\VoidMetodlar.csproj", "{BB3AB4F7-691B-4F99-ADA0-26F903A84795}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parametreli Metodlar", "Parametreli Metodlar\Parametreli Metodlar.csproj", "{174CB7DF-3554-44BE-A69B-E90FCCB4E8F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{BB3AB4F7-691B-4F99-ADA0-26F903A84795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB3AB4F7-691B-4F99-ADA0-26F903A84795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB3AB4F7-691B-4F99-ADA0-26F903A84795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174CB7DF-3554-44BE-A69B-E90FCCB4E8F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174CB7DF-3554-44BE-A69B-E90FCCB4E8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174CB7DF-3554-44BE-A69B-E90FCCB4E8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174CB7DF-3554-44BE-A69B-E90FCCB4E8F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{99993805-4A6B-4185-9302-6002496227EA} = {0EB48190-7A83-4CF6-9697-A724FEE24222}
 		{BB3AB4F7-691B-4F99-ADA0-26F903A84795} = {0EB48190-7A83-4CF6-9697-A724FEE24222}
+		{174CB7DF-3554-44BE-A69B-E90FCCB4E8F0} = {0EB48190-7A83-4CF6-9697-A724FEE24222}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {09E6A1E6-8C9F-4BBF-B2B6-B0E4CA4C3983}
