@@ -46,7 +46,24 @@ namespace WinOrnek1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+            Random rast = new Random();
+            int kap = 0;
+            for (int i = 0; i < 50; i++)
+            {
+                kap = rast.Next(50);
+                if (kap%2 == 0)
+                {
+                    listBox1.Items.Add(kap);
+                }
+                if (kap % 2 != 0)
+                {
+                    listBox2.Items.Add(kap);
+                }
+                if (kap % 15 == 0)
+                {
+                    listBox3.Items.Add(kap);
+                }
+            }
           
 
         }
@@ -85,6 +102,8 @@ namespace WinOrnek1
                     sekiz = sekiz + 1;
                 else if (sayilar[i] == 8)
                     dokuz = dokuz + 1;
+                
+
 
                     
             }
