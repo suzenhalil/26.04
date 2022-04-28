@@ -16,7 +16,18 @@ namespace HazırMetotlar
             //OrnekToUpperToLower();
             //OrnekToCharArray();
             //OrnekTrim();
+            //OrnekSubString();
 
+        }
+
+        private static void OrnekSubString()
+        {
+            //1. Kullanım
+            string ornekmetin = "Bugün hava çok güzel";
+            string yenimetin = ornekmetin.Substring(5);
+            Console.WriteLine(yenimetin);
+            //2. Kullanım
+            Console.WriteLine(ornekmetin.Substring(6, 4));
         }
 
         private static void OrnekTrim()
