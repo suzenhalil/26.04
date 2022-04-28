@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinOrnek1", "WinOrnek1\WinO
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Metotlar", "Metotlar", "{0EB48190-7A83-4CF6-9697-A724FEE24222}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodGiris", "MetodGiris\MetodGiris.csproj", "{99993805-4A6B-4185-9302-6002496227EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetodGiris", "MetodGiris\MetodGiris.csproj", "{99993805-4A6B-4185-9302-6002496227EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoidMetodlar", "VoidMetodlar\VoidMetodlar.csproj", "{BB3AB4F7-691B-4F99-ADA0-26F903A84795}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoidMetodlar", "VoidMetodlar\VoidMetodlar.csproj", "{BB3AB4F7-691B-4F99-ADA0-26F903A84795}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parametreli Metodlar", "Parametreli Metodlar\Parametreli Metodlar.csproj", "{174CB7DF-3554-44BE-A69B-E90FCCB4E8F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parametreli Metodlar", "Parametreli Metodlar\Parametreli Metodlar.csproj", "{174CB7DF-3554-44BE-A69B-E90FCCB4E8F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HazırMetotlar", "HazırMetotlar\HazırMetotlar.csproj", "{0AB4112D-DBE0-47AF-AB66-1E8B7FF8806A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{174CB7DF-3554-44BE-A69B-E90FCCB4E8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{174CB7DF-3554-44BE-A69B-E90FCCB4E8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{174CB7DF-3554-44BE-A69B-E90FCCB4E8F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB4112D-DBE0-47AF-AB66-1E8B7FF8806A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB4112D-DBE0-47AF-AB66-1E8B7FF8806A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB4112D-DBE0-47AF-AB66-1E8B7FF8806A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB4112D-DBE0-47AF-AB66-1E8B7FF8806A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{99993805-4A6B-4185-9302-6002496227EA} = {0EB48190-7A83-4CF6-9697-A724FEE24222}
 		{BB3AB4F7-691B-4F99-ADA0-26F903A84795} = {0EB48190-7A83-4CF6-9697-A724FEE24222}
 		{174CB7DF-3554-44BE-A69B-E90FCCB4E8F0} = {0EB48190-7A83-4CF6-9697-A724FEE24222}
+		{0AB4112D-DBE0-47AF-AB66-1E8B7FF8806A} = {0EB48190-7A83-4CF6-9697-A724FEE24222}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {09E6A1E6-8C9F-4BBF-B2B6-B0E4CA4C3983}
