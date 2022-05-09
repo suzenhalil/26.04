@@ -7,7 +7,8 @@ namespace Parametreli_Metodlar
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            AsalSayi();
+            
+            Sifre();
 
         }
 
@@ -19,6 +20,7 @@ namespace Parametreli_Metodlar
 
             }
         }
+
         #region Turkce
         public static void TurkceHarfSayisi(string str)
         {
